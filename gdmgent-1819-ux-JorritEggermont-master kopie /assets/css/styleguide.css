@@ -1,0 +1,313 @@
+.sg-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/*KLEUREN*/
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11 {
+    width: 100px;
+    height: 100px;
+}
+
+.kleuren {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1 {
+    background-color: var(--c-primary);
+}
+
+.box2 {
+    background-color: var(--d-primary);
+}
+
+.box3 {
+    background-color: var(--e-primary);
+}
+
+.box4 {
+    background-color: var(--f-primary);
+}
+
+.box5 {
+    background-color: var(--g-primary);
+}
+
+.box6 {
+    background-color: var(--h-primary);
+}
+
+.box7 {
+    background-color: var(--i-primary);
+}
+
+.box8 {
+    background-color: var(--j-primary);
+}
+
+.box9 {
+    background-color: var(--k-primary);
+}
+
+.box10 {
+    background-color: var(--l-primary);
+}
+
+.box11 {
+    background-color: var(--m-primary);
+}
+
+/*KNOPPEN*/
+
+.buttonfirststyle {
+    background-color: var(--f-primary);
+    padding: 10px;
+    border: solid 1px var(--c-primary);
+    color: var(--e-primary);
+    width: 250px;
+}
+
+.verstuurstyle {
+    background-color: var(--c-primary);
+    padding: 10px;
+    border: solid 2px var(--m-primary);
+    color: var(--e-primary);
+    width: 150px;
+    cursor: pointer;
+}
+
+.buttonfirststyle2 {
+
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    background-color: var(--d-primary);
+    border: solid 1px var(--j-primary);
+    color: var(--h-primary);
+}
+
+.verstuurstyle2 {
+
+    padding: 10px;
+    color: var(--e-primary);
+    width: 150px;
+    cursor: pointer;
+    background-color: var(--j-primary);
+    border: solid 2px var(--c-primary);
+}
+
+.buttonfirststyle3 {
+
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    background-color: var(--j-primary);
+    border: solid 1px var(--m-primary);
+    color: var(--e-primary);
+}
+
+.verstuurstyle3 {
+
+    padding: 10px;
+    color: var(--e-primary);
+    width: 150px;
+    cursor: pointer;
+    background-color: var(--k-primary);
+    border: solid 2px var(--m-primary);
+}
+
+.leesmeerstyle {
+    color: var(--e-primary);
+    font-family: var(--t-primary);
+    font-size: 20px;
+}
+
+.leesmeerstyle2 {
+    color: var(--d-primary);
+    font-family: var(--t-primary);
+    font-size: 20px;
+}
+
+.leesmeerstyle3 {
+    color: var(--m-primary);
+    font-family: var(--t-primary);
+    font-size: 20px;
+}
+
+.homestyle {
+    padding: 20px;
+    font-family: var(--t-primary);
+    text-decoration: none;
+    color: var(--e-primary);
+
+}
+
+.homestyle2 {
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-family: var(--t-primary);
+    text-decoration: none;
+    color: var(--e-primary);
+    border-bottom: solid 5px var(--c-primary);
+}
+
+/*TYPOGRAFIE*/
+
+.titlepages {
+    font-size: 50px;
+    font-family: var(--t-primary);
+    font-weight: 500;
+    color: var(--g-primary);
+}
+
+.tussentitlepages {
+    font-family: var(--t-primary);
+    font-size: bold;
+}
+
+.textinbox1 {
+
+    font-family: var(--t-primary);
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--g-primary);
+}
+
+/*FORMULIEREN*/
+
+.titlepages {
+    font-size: 50px;
+    font-family: var(--t-primary);
+    font-weight: 500;
+    color: var(--g-primary);
+
+}
+
+.textpages {
+    font-size: 20px;
+    color: var(--g-primary);
+    font-family: var(--t-primary);
+    line-height: 30px;
+}
+
+.reservatie {
+    height: 500px;
+}
+
+.reservatiemap {
+    background-color: var(--d-primary);
+    height: 400px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.reservatieimg {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.tafelcheck {
+    color: var(--g-primary)
+}
+
+.lijst {
+    min-width: 200px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.verstuur {
+    background-color: var(--c-primary);
+    padding: 10px;
+    border: solid 2px var(--m-primary);
+    color: var(--e-primary);
+    width: 150px;
+    margin-left: 430px;
+    cursor: pointer;
+}
+
+/*COMPONENTEN*/
+
+.pagesheader {
+    background-color: var(--c-primary);
+    height: 140px;
+    position: relative;
+}
+
+.imgmenu {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+
+}
+
+.navigatie {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    right: 50px;
+    padding: 20px;
+    font-family: var(--t-primary);
+    text-decoration: none;
+    padding-right: 0;
+    margin-right: 0px;
+}
+
+.navigatie li a {
+    text-decoration: none;
+    color: var(--e-primary);
+}
+
+.navigatie li a:hover {
+    text-decoration: none;
+    color: var(--e-primary);
+    border-bottom: solid var(--c-primary);
+    padding-bottom: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+:root {
+  /**
+   * Colour palette
+   */
+  --c-primary: hsl(246, 53%, 48%);
+  --d-primary: hsl(238, 73%, 10%);
+  --e-primary: hsl(0, 15%, 94%);
+  --f-primary: hsla(246, 53%, 48%, 0.39);
+  --g-primary: hsla(0, 9%, 44%, 100%);
+  --h-primary: hsl(245, 29%, 81%);
+  --i-primary: hsl(246, 30%, 73%);
+  --j-primary: hsl(246, 57%, 30%);
+  --k-primary: hsl(246, 61%, 40%);
+  --l-primary: hsl(246, 54%, 34%);
+  --m-primary: hsl(246, 79%, 77%);
+
+
+  /**
+   * Layout
+   */
+  --l-gutter: 1rem;
+
+  /**
+   * Typography
+   */
+  --t-primary: Hiragino Kaku Gothic Pro;
+  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-tertiary: monospace;
+
+  --t-headline: var(--t-primary);
+  --t-subtitle: var(--t-primary);
+  --t-body: var(--t-secondary);
+  --t-code: var(--t-tertiary);
+
+}

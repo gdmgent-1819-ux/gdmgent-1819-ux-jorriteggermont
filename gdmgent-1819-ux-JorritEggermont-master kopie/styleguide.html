@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Styleguide</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/styleguide.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div class="kleuren">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            <div class="box8"></div>
+            <div class="box9"></div>
+            <div class="box10"></div>
+            <div class="box11"></div>
+        </div>
+        <h2 class="sg-subtitle">Typografie</h2>
+
+        Voor de typografie werd telkens hetzelfde lettertype gebruikt (Hiragino Kaku Gothic Pro). De grootte:
+        titel(70px), tussentitel(25px), tekst(20px);
+
+        <h2 class="titlepages">TITLE</h2>
+        <h2 class="tussentitlepages">TUSSENTITEL</h2>
+        <p class="textinbox1">De typografie voor de gewone informatieve teksten</p>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+
+
+        DE KNOPPEN IN RUST (eerste 2 zien er anders uit door de opacity knop in combinatie met de achtergrond op de
+        eerste pagina): <br> <br>
+
+        <button class="buttonfirststyle" onclick="window.location.href = '#';">RESERVEER NU</button>
+        <button class="buttonfirststyle" onclick="window.location.href = '#';">ONS MENU</button>
+        <button class="verstuurstyle" type="submit">VERSTUUR</button>
+        <a href="#" class="leesmeerstyle">lees meer</a>
+        <a class="homestyle" href="#">HOME</a> <br> <br>
+
+        DE KNOP NA HET HOVEREN: <br> <br>
+
+        <button class="buttonfirststyle2" onclick="window.location.href = '#';">RESERVEER NU</button>
+        <button class="buttonfirststyle2" onclick="window.location.href = '#';">ONS MENU</button>
+        <button class="verstuurstyle2" type="submit">VERSTUUR</button>
+        <a href="#" class="leesmeerstyle2">lees meer</a>
+        <a class="homestyle2" href="#">HOME</a> <br> <br>
+
+        DE KNOP TIJDENS HET DRUKKEN: <br> <br>
+
+        <button class="buttonfirststyle3" onclick="window.location.href = '#';">RESERVEER NU</button>
+        <button class="buttonfirststyle3" onclick="window.location.href = '#';">ONS MENU</button>
+        <button class="verstuurstyle3" type="submit">VERSTUUR</button>
+        <a href="#" class="leesmeerstyle3">lees meer</a>
+
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <article class="reservatie">
+            <form>
+                <div>
+
+                    <label class="lijst" for="voornaam">VOORNAAM
+                    </label>
+                    <input type="text" id="voornaam" name="voornaam" required minlength="3" maxlength="15"
+                        placeholder="vul uw naam in">
+                </div>
+
+                <div>
+                    <label class="lijst" for="familienaam">FAMILIENAAM
+                    </label>
+                    <input type="text" id="familienaam" name="familinaam" required minlength="3" maxlength="30">
+                </div>
+
+                <div>
+                    <label class="lijst" for="email">E-MAIL
+                    </label>
+                    <input type="email" id="email" name="email" required minlength="3" maxlength="30">
+
+                    <div>
+                        <label class="lijst" for="telefoonnummer">TELEFOONNUMMER
+                        </label>
+                        <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+32" required
+                            minlength="3" maxlength="30">
+                    </div>
+                    <div>
+                        <label class="lijst" for="start">DATUM</label>
+
+                        <input type="date" id="start" name="trip-start" value="2019-07-22" min="2019-01-01"
+                            max="2020-12-31">
+                    </div>
+                    <div>
+                        <label class="lijst" for="Werkervaring">EXTRA OPMERKINGEN</p>
+                            <textarea name=werkervaring id="werkervaring" cols="70" rows="11"></textarea>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="aangeduid" required>
+                            <span class="tafelcheck">Ik heb een tafel aangeduid</span>
+                        </label>
+                    </div>
+                    <div>
+
+                        <button class="verstuur" type="submit">VERSTUUR</button>
+                    </div>
+
+            </form>
+
+
+        </article>
+        <h2 class="sg-subtitle">Componenten</h2>
+
+        <header>
+            <style>
+                body {
+                    background-color: var(--e-primary);
+                }
+            </style>
+
+            <header class="pagesheader">
+                <h1>SNACKZ</h1>
+                <div class="navigatie">
+                    <ul>
+                        <nav>
+                            <li> <a class="home" href="index.html">HOME</a></li>
+                            <li> <a href="menu.html">MENU</a></li>
+                            <li> <a href="reserveer.html">RESERVEER</a></li>
+                            <li> <a href="#">WIE ZIJN WIJ</a></li>
+                            <li> <a href="#">CONTACT</a></li>
+                        </nav>
+                    </ul>
+                </div>
+
+                <img class="imgmenu" src="./assets/css/img/menu.jpg" alt="menu">
+
+
+            </header>
+
+            <footer>
+
+                <div class="footertext">
+
+                    <span class="hfooter">FOLLOW</span>
+
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Snapchat</li>
+                        <li>Pinterest</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footertext">
+
+                    <span class="hfooter">LINKS</span>
+
+                    <ul>
+                        <li> Image: <a href="https://www.freepik.com/free-photos-vectors/logo">Logo psd created by <br>
+                                rawpixel.com <br> www.freepik.com</a>
+                        </li>
+
+                        <li>
+                            Image: www.unsplash.com
+                        </li>
+
+                        <li>
+                            Image: www.pexels.com
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footertext">
+
+                    <span class="hfooter">CONTACT</span>
+
+                    <ul>
+                        <li>
+                            0478 09 98 789
+                        </li>
+
+                        <li>
+                            snacks.stadGent@gmail.com
+                        </li>
+
+                        <li>
+                            Jakobijnenstraat 143 Gent 9000
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="footertext">
+                    <span class="hfooter">EXPLORE</span>
+
+                    <ul>
+                        <li>HOME</li>
+                        <li>MENU</li>
+                        <li>RESERVEER</li>
+                        <li>WIE ZIJN WIJ</li>
+                        <li>CONTACT</li>
+                    </ul>
+
+                </div>
+            </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,387 @@
+.titlepages {
+    font-size: 50px;
+    font-family: var(--t-primary);
+    font-weight: 500;
+    color: var(--g-primary);
+
+}
+
+.textpages {
+    font-size: 20px;
+    color: var(--g-primary);
+    font-family: var(--t-primary);
+    line-height: 30px;
+}
+
+.reservatie {
+    height: 500px;
+}
+
+.reservatiemap {
+    background-color: var(--d-primary);
+    height: 400px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.reservatieimg {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.tafelcheck {
+    color: var(--g-primary)
+}
+
+.lijst {
+    min-width: 200px;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.verstuur {
+    background-color: var(--c-primary);
+    padding: 10px;
+    border: solid 2px var(--m-primary);
+    color: var(--e-primary);
+    width: 150px;
+    margin-left: 430px;
+    cursor: pointer;
+}
+
+.verstuur:hover {
+    background-color: var(--j-primary);
+    border: solid 2px var(--c-primary);
+}
+
+.verstuur:active {
+    background-color: var(--k-primary);
+    border: solid 2px var(--m-primary);
+}
+
+
+form {
+    color: var(--g-primary)
+}
+
+.tussentitlepages {
+    font-family: var(--t-primary);
+    font-size: bold;
+    font-size: 25px;
+
+}
+
+
+.selecteer {
+    padding-top: 230px;
+    padding-left: 10px;
+}
+
+/*TAFELS*/
+
+/*Tafel1*/
+
+div .seatbox1 span:hover,
+div .seatbox2 span:hover,
+div .seatbox3 span:hover,
+div .seatbox4 span:hover,
+div .seatbox5 span:hover,
+div .seatbox6 span:hover,
+div .seatbox7 span:hover,
+div .seatbox8 span:hover,
+div .seatbox9 span:hover,
+div .seatbox10 span:hover,
+div .seatbox11 span:hover {
+    background-color: var(--i-primary);
+
+}
+
+
+div .seatbox1 {
+    cursor: pointer;
+}
+
+div .seatbox1 input[type="checkbox"] {
+    display: none;
+}
+
+span {
+    color: var(--e-primary);
+}
+
+div .seatbox1 span {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    margin-top: 100px;
+    height: 300px;
+    width: 44px;
+    z-index: 1;
+    background-color: var(--h-primary);
+
+}
+
+div .seatbox1 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+
+/* TAFEL 2*/
+div .seatbox2 {
+    cursor: pointer;
+}
+
+div .seatbox2 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox2 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 119px;
+    margin-top: 139px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox2 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+div .seatbox3 {
+    cursor: pointer;
+}
+
+div .seatbox3 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox3 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 119px;
+    margin-top: 237px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox3 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+div .seatbox4 {
+    cursor: pointer;
+}
+
+div .seatbox4 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox4 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 119px;
+    margin-top: 335px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox4 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+
+/**/
+
+div .seatbox5 {
+    cursor: pointer;
+}
+
+div .seatbox5 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox5 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 503px;
+    margin-top: 19px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+
+div .seatbox5 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+div .seatbox6 {
+    cursor: pointer;
+}
+
+div .seatbox6 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox6 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 503px;
+    margin-top: 117px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox6 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+div .seatbox7 {
+    cursor: pointer;
+}
+
+div .seatbox7 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox7 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 100px;
+    margin-left: 503px;
+    margin-top: 215px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox7 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+div .seatbox8 {
+    cursor: pointer;
+}
+
+div .seatbox8 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox8 span {
+    display: block;
+    position: absolute;
+    height: 44px;
+    width: 259px;
+    margin-left: 360px;
+    margin-top: 329px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+div .seatbox8 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+div .seatbox9 {
+    cursor: pointer;
+}
+
+div .seatbox9 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox9 span {
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 360px;
+    margin-top: 209px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+
+div .seatbox9 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+
+div .seatbox10 {
+    cursor: pointer;
+}
+
+div .seatbox10 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox10 span {
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 360px;
+    margin-top: 111px;
+    z-index: 1;
+    background-color: var(--h-primary);
+
+}
+
+
+div .seatbox10 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}
+
+/**/
+
+div .seatbox11 {
+    cursor: pointer;
+}
+
+div .seatbox11 input[type="checkbox"] {
+    display: none;
+}
+
+div .seatbox11 span {
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 360px;
+    margin-top: 13px;
+    z-index: 1;
+    background-color: var(--h-primary);
+}
+
+
+div .seatbox11 input[type="checkbox"]:checked~span {
+    background: var(--c-primary);
+}

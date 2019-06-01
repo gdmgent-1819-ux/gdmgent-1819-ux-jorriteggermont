@@ -1,0 +1,209 @@
+/*HEADER*/
+
+.pagesheader {
+  background-color: var(--c-primary);
+  height: 140px;
+  position: relative;
+}
+
+.imgmenu {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+
+}
+
+#tweedepagina {
+  height: 100vh;
+}
+
+.dropdown {
+  color: var(--d-primary);
+  font-size: 40px;
+  font-weight: 100;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin-left: 830px;
+  margin-top: 900px;
+}
+
+.navigatie {
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+  right: 50px;
+  padding: 20px;
+  font-family: var(--t-primary);
+  text-decoration: none;
+  padding-right: 0;
+  margin-right: 0px;
+}
+
+.navigatie li a {
+  text-decoration: none;
+  color: var(--e-primary);
+}
+
+.navigatie li a:hover {
+  text-decoration: none;
+  color: var(--e-primary);
+  border-bottom: solid var(--c-primary);
+  padding-bottom: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+h1 {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  font-family: var(--t-primary);
+  font-size: 50px;
+  font-weight: 100;
+  left: 50px;
+  top: 10px;
+  color: var(--e-primary);
+}
+
+.titlepages {
+  font-size: 50px;
+  font-family: var(--t-primary);
+  font-weight: 500;
+  color: var(--g-primary);
+}
+
+.positietitlemenu {
+  margin-left: 60px;
+}
+
+
+
+/*Page2*/
+
+#myDIV {
+  width: 75%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  background-color: var(--d-primary);
+  color: var(--e-primary);
+  display: none;
+}
+
+#myDIV1 {
+  width: 75%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  background-color: var(--d-primary);
+  color: var(--e-primary);
+  display: none;
+}
+
+#myDIV2 {
+  width: 75%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  background-color: var(--d-primary);
+  color: var(--e-primary);
+  display: none;
+}
+
+#myDIV3 {
+  width: 75%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  background-color: var(--d-primary);
+  color: var(--e-primary);
+  display: none;
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+  z-index: 1;
+  color: var(--e-primary);
+  font-family: var(--t-primary);
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.button1 {
+  width: 100px;
+
+  width: 75%;
+  height: 130px;
+  background-image: url(img/plates.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+}
+
+
+
+
+.button2 {
+  width: 100px;
+
+  width: 75%;
+  height: 130px;
+  background-image: url(img/snacks.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+}
+
+.button3 {
+  width: 100px;
+
+  width: 75%;
+  height: 130px;
+  background-image: url(img/desserts.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+}
+
+.button4 {
+  width: 100px;
+  width: 75%;
+  height: 130px;
+  background-image: url(img/drinks2.png);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+}
+
+.menucontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+}

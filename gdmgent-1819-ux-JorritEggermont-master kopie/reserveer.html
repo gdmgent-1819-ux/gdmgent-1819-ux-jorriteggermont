@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base_page2.css">
+    <link rel="stylesheet" href="assets/css/base_page3.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>MENU</title>
+</head>
+
+<body>
+    <header>
+        <style>
+            body {
+                background-color: var(--e-primary);
+            }
+        </style>
+
+        <header class="pagesheader">
+            <h1>SNACKZ</h1>
+            <div class="navigatie">
+                <ul>
+                    <nav>
+                        <li> <a class="home" href="index.html">HOME</a></li>
+                        <li> <a href="menu.html">MENU</a></li>
+                        <li> <a href="reserveer.html">RESERVEER</a></li>
+                        <li> <a href="#">WIE ZIJN WIJ</a></li>
+                        <li> <a href="#">CONTACT</a></li>
+                    </nav>
+                </ul>
+            </div>
+
+            <img class="imgmenu" src="./assets/css/img/reserveer.jpg" alt="menu">
+
+        </header>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-5 col-sm-7">
+                    <article class="reserveer">
+                        <h2 class="titlepages">RESERVEER HIER</h2>
+                        <p class="textpages">
+                            Voor een reservatie kan u altijd bellen naar het nummer
+                            <b> 0478 09 98 789 </b> of u kan ook altijd <b> online </b> reserveren. We bieden online
+                            tafels aan van 2 en 4 personen. Verder kan u ook een plaats voor 1 persoon aan het raam
+                            reserveren (links op plattegrond). De tafel voor 12 personen is ook mogelijk om online te
+                            reserveren hiervoor moet
+                            u minimum met 8 personen zijn
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="selecteerdiv" class="col-7 col-sm-5">
+                    <article>
+                        <div class="selecteer">
+                            <h2 class="tussentitlepages">SELECTEER HIER UW TAFEL</h2>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5 col-sm-7">
+                    <article class="reservatie">
+                        <form>
+                            <div>
+
+                                <label class="lijst" for="voornaam">VOORNAAM
+                                </label>
+                                <input type="text" id="voornaam" name="voornaam" required minlength="3" maxlength="15"
+                                    placeholder="vul uw naam in">
+                            </div>
+
+                            <div>
+                                <label class="lijst" for="familienaam">FAMILIENAAM
+                                </label>
+                                <input type="text" id="familienaam" name="familinaam" required minlength="3"
+                                    maxlength="30">
+                            </div>
+
+                            <div>
+                                <label class="lijst" for="email">E-MAIL
+                                </label>
+                                <input type="email" id="email" name="email" required minlength="3" maxlength="30">
+
+                                <div>
+                                    <label class="lijst" for="telefoonnummer">TELEFOONNUMMER
+                                    </label>
+                                    <input type="tel" id="telefoonnummer" name="telefoonnummer" placeholder="+32"
+                                        required minlength="3" maxlength="30">
+                                </div>
+                                <div>
+                                    <label class="lijst" for="start">DATUM</label>
+
+                                    <input type="date" id="start" name="trip-start" value="2019-07-22" min="2019-01-01"
+                                        max="2020-12-31">
+                                </div>
+                                <div>
+                                    <label class="lijst" for="Werkervaring">EXTRA OPMERKINGEN</p>
+                                        <textarea name=werkervaring id="werkervaring" cols="70" rows="11"></textarea>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox" name="aangeduid" required>
+                                        <span class="tafelcheck">Ik heb een tafel aangeduid</span>
+                                    </label>
+                                </div>
+                                <div>
+
+                                    <button class="verstuur" type="submit">VERSTUUR</button>
+                                </div>
+
+                        </form>
+
+
+                    </article>
+
+                </div>
+
+                <div class="col-7 col-sm-5">
+                    <article class="reservatiemap">
+
+                        <form>
+
+                            <div>
+                                <label class="seatbox1">
+                                    <input type="checkbox" name="">
+                                    <span>1 prs</span>
+                                </label>
+
+
+
+                                <label class="seatbox2">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox3">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox4">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox5">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox6">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox7">
+                                    <input type="checkbox" name="">
+                                    <span>4 prs</span>
+                                </label>
+
+
+                                <label class="seatbox8">
+                                    <input type="checkbox" name="">
+                                    <span>12 prs</span>
+                                </label>
+
+
+                                <label class="seatbox9">
+                                    <input type="checkbox" name="">
+                                    <span>2 prs</span>
+                                </label>
+
+
+                                <label class="seatbox10">
+                                    <input type="checkbox" name="">
+                                    <span>2 prs</span>
+                                </label>
+
+
+                                <label class="seatbox11">
+                                    <input type="checkbox" name="">
+                                    <span>2 prs</span>
+                                </label>
+                            </div>
+                        </form>
+
+
+
+
+                        <img class="reservatieimg" src="./assets/css/img/tafel.png" alt="tafel">
+
+                    </article>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+
+            <div class="footertext">
+
+                <span class="hfooter">FOLLOW</span>
+
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Snapchat</li>
+                    <li>Pinterest</li>
+
+                </ul>
+
+            </div>
+
+            <div class="footertext">
+
+                <span class="hfooter">LINKS</span>
+
+                <ul>
+                    <li> Image: <a href="https://www.freepik.com/free-photos-vectors/logo">Logo psd created by <br>
+                            rawpixel.com <br> www.freepik.com</a>
+                    </li>
+
+                    <li>
+                        Image: www.unsplash.com
+                    </li>
+
+                    <li>
+                        Image: www.pexels.com
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="footertext">
+
+                <span class="hfooter">CONTACT</span>
+
+                <ul>
+                    <li>
+                        0478 09 98 789
+                    </li>
+
+                    <li>
+                        snacks.stadGent@gmail.com
+                    </li>
+
+                    <li>
+                        Jakobijnenstraat 143 Gent 9000
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="footertext">
+                <span class="hfooter">EXPLORE</span>
+
+                <ul>
+                    <li>HOME</li>
+                    <li>MENU</li>
+                    <li>RESERVEER</li>
+                    <li>WIE ZIJN WIJ</li>
+                    <li>CONTACT</li>
+                </ul>
+
+            </div>
+        </footer>
+        <script src="app.js"></script>
+</body>
+
+</html>
